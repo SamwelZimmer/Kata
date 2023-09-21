@@ -13,6 +13,25 @@ class Solution(object):
         :rtype: str
         """
 
+        # init empty result list
+        res = []
+
+        # loop through the largest word
+        for i in range(max(len(word1), len(word2))):
+
+            # if within range of first word add it to list
+            if i < len(word1):
+                res.append(word1[i])
+
+            # if within range of second word add it to list
+            if i < len(word2):
+                res.append(word2[i])
+
+        # convert list to string and return
+        return "".join(res)
+
+
+
 
 sol = Solution()
 
