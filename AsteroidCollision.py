@@ -63,8 +63,8 @@ class Solution(object):
 
 sol = Solution()
 
-# print(sol.asteroidCollision(asteroids=[5, 10, -5]))  # expected output: [5,10]
-# print(sol.asteroidCollision(asteroids=[8, -8]))  # expected output: []
-# print(sol.asteroidCollision(asteroids=[10, 2, -5]))  # expected output: [10]
+print(sol.asteroidCollision(asteroids=[5, 10, -5]))  # expected output: [5,10]
+print(sol.asteroidCollision(asteroids=[8, -8]))  # expected output: []
+print(sol.asteroidCollision(asteroids=[10, 2, -5]))  # expected output: [10]
 print(sol.asteroidCollision(asteroids=[-2, -2, 1, -2]))  # expected output: [-2, -2, -2]
 
