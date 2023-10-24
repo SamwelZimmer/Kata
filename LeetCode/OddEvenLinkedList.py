@@ -24,7 +24,6 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-
         # if list is empty
         if not head or not head.next:
             return head
